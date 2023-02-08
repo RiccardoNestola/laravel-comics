@@ -32,9 +32,17 @@ header .container {
     }
 };
 
+main{
+    background-color: rgb(35, 34, 34);
+}
+
+
 .card{
     border-radius: none;
     border: none;
+    background-color:#ff000000;
+    color: white;
+    font-size: .6rem;
 }
 
 .hero{
@@ -43,4 +51,10 @@ header .container {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.wrapper{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
 }
