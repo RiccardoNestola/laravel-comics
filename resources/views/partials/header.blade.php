@@ -5,11 +5,12 @@
         </a>
         <nav>
             <ul>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
+                @foreach ($menu_db as $item)
+                <li>{{ $item['text'] }}</li>
+                @endforeach
             </li>
             </ul>
         </nav>
     </div>
 </header>
+

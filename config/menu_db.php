@@ -31,13 +31,6 @@ return[
             "active" => false,
 
         ],
-
-        [
-            "text" => "Tv",
-            "url" => "#",
-            "active" => false,
-
-        ],
             
         [
             "text" => "Games",
