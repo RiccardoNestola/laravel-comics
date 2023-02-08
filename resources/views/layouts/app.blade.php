@@ -20,6 +20,7 @@
     <body>
         @include('partials.header')
         <main>
+            @include('hero')
             @yield('main-content')
         </main>
         @include('partials.footer')
